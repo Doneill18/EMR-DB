@@ -181,7 +181,7 @@ class DiagnosisViewController: UIViewController{
         patientPurposeOfVisit.text = {() -> String in
             let POV = currentVisit["purposeOfVisit"] as? [Bool]
             var POVString = ""
-            for(var i=0; i<POV!.count; i++){
+            for(var i in 0 ..< POV!.count){
                 if(POV![i]){
                     if(POVString.isEmpty){
                         POVString += self.purposeOfVisit[i]

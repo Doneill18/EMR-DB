@@ -65,7 +65,7 @@ class PatientDetailViewController: UIViewController, UINavigationControllerDeleg
         tableView.dataSource = self
         refreshControl = {
             let refreshControl = UIRefreshControl()
-            refreshControl.addTarget(self, action: "handleRefresh", forControlEvents: UIControlEvents.ValueChanged)
+            refreshControl.addTarget(self, action: #selector(PatientDetailViewController.handleRefresh), forControlEvents: UIControlEvents.ValueChanged)
             
             return refreshControl
         }()
