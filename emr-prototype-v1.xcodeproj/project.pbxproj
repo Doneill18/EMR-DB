@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2697408F1CC95D5700044A6B /* MedicationDetailSpanishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697408D1CC95D5700044A6B /* MedicationDetailSpanishViewController.swift */; };
+		269740901CC95D5700044A6B /* MedicationSpanishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697408E1CC95D5700044A6B /* MedicationSpanishViewController.swift */; };
+		81857BAE1CD96706004535D9 /* NewPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81857BAD1CD96706004535D9 /* NewPatientViewController.swift */; };
+		CE1FA8FF1CDC2B99005E03FE /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FA8FE1CDC2B99005E03FE /* DiagnosisViewController.swift */; };
+		CEDE58A71CDC0FF600D0CE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE58A51CDC0FF500D0CE8B /* Main.storyboard */; };
+		D73BA1EA1C6A7BE90006BDFD /* NewVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73BA1E91C6A7BE90006BDFD /* NewVisitViewController.swift */; };
+		EA02EE9F1BF04376008FFFB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02EE9E1BF04376008FFFB8 /* AppDelegate.swift */; };
+		EA02EEA61BF04376008FFFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02EEA51BF04376008FFFB8 /* Assets.xcassets */; };
+		EA02EEA91BF04376008FFFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02EEA71BF04376008FFFB8 /* LaunchScreen.storyboard */; };
+		EA02EEB41BF04376008FFFB8 /* emr_prototype_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02EEB31BF04376008FFFB8 /* emr_prototype_v1Tests.swift */; };
+		EA02EEBF1BF04376008FFFB8 /* emr_prototype_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02EEBE1BF04376008FFFB8 /* emr_prototype_v1UITests.swift */; };
+		EAD551F21BF0470100E214D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551F11BF0470100E214D3 /* LoginViewController.swift */; };
+		EAD551F41BF0470C00E214D3 /* MainDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551F31BF0470C00E214D3 /* MainDashViewController.swift */; };
+		EAD551F61BF0471600E214D3 /* PatientDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551F51BF0471600E214D3 /* PatientDashViewController.swift */; };
+		EAD551F81BF0472200E214D3 /* PharmacyDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551F71BF0472200E214D3 /* PharmacyDashViewController.swift */; };
+		EAD551FA1BF0475400E214D3 /* PatientDirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551F91BF0475400E214D3 /* PatientDirectoryTableViewController.swift */; };
+		EAD551FC1BF0476B00E214D3 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD551FB1BF0476B00E214D3 /* InventoryTableViewController.swift */; };
+		EAD552101BF0482600E214D3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD5520F1BF0482600E214D3 /* libsqlite3.tbd */; };
+		EAD552121BF0483E00E214D3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552111BF0483E00E214D3 /* AudioToolbox.framework */; };
+		EAD552141BF0484600E214D3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552131BF0484600E214D3 /* CFNetwork.framework */; };
+		EAD552161BF0484D00E214D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552151BF0484D00E214D3 /* CoreGraphics.framework */; };
+		EAD552181BF0485500E214D3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552171BF0485500E214D3 /* CoreLocation.framework */; };
+		EAD5521A1BF0485E00E214D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552191BF0485E00E214D3 /* QuartzCore.framework */; };
+		EAD5521C1BF0486600E214D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD5521B1BF0486600E214D3 /* Security.framework */; };
+		EAD5521E1BF0486E00E214D3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD5521D1BF0486E00E214D3 /* StoreKit.framework */; };
+		EAD552201BF0487C00E214D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD5521F1BF0487C00E214D3 /* SystemConfiguration.framework */; };
+		EAD552221BF0488800E214D3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD552211BF0488800E214D3 /* MobileCoreServices.framework */; };
+		EAD552241BF04B5800E214D3 /* PatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD552231BF04B5800E214D3 /* PatientDetailViewController.swift */; };
+		EAD552261BF04DE400E214D3 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD552251BF04DE400E214D3 /* MedicationDetailViewController.swift */; };
+		EAD552281BF0506700E214D3 /* WaitingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD552271BF0506700E214D3 /* WaitingListViewController.swift */; };
+		EAD552301BF0620300E214D3 /* FilledPrescriptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD5522F1BF0620300E214D3 /* FilledPrescriptionTableViewController.swift */; };
+		EAD552321BF0621500E214D3 /* UnfilledPrescriptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD552311BF0621500E214D3 /* UnfilledPrescriptionTableViewController.swift */; };
+		EAD552341BF064F000E214D3 /* PrescriptionSlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD552331BF064F000E214D3 /* PrescriptionSlipViewController.swift */; };
+		EAE00A9C1BF3CF3D00A8B2DF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A951BF3CF3D00A8B2DF /* Bolts.framework */; };
+		EAE00A9D1BF3CF3D00A8B2DF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A961BF3CF3D00A8B2DF /* Parse.framework */; };
+		EAE00A9E1BF3CF3D00A8B2DF /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A971BF3CF3D00A8B2DF /* ParseCrashReporting.framework */; };
+		EAE00A9F1BF3CF3D00A8B2DF /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A981BF3CF3D00A8B2DF /* ParseFacebookUtils.framework */; };
+		EAE00AA01BF3CF3D00A8B2DF /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A991BF3CF3D00A8B2DF /* ParseFacebookUtilsV4.framework */; };
+		EAE00AA11BF3CF3D00A8B2DF /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A9A1BF3CF3D00A8B2DF /* ParseTwitterUtils.framework */; };
+		EAE00AA21BF3CF3D00A8B2DF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE00A9B1BF3CF3D00A8B2DF /* ParseUI.framework */; };
+		EAE00AA41BF3E5EB00A8B2DF /* CheckInTriageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE00AA31BF3E5EB00A8B2DF /* CheckInTriageTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA02EEB01BF04376008FFFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA02EE931BF04376008FFFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA02EE9A1BF04376008FFFB8;
+			remoteInfo = "emr-prototype-v1";
+		};
+		EA02EEBB1BF04376008FFFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA02EE931BF04376008FFFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA02EE9A1BF04376008FFFB8;
+			remoteInfo = "emr-prototype-v1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2697408D1CC95D5700044A6B /* MedicationDetailSpanishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailSpanishViewController.swift; sourceTree = "<group>"; };
+		2697408E1CC95D5700044A6B /* MedicationSpanishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationSpanishViewController.swift; sourceTree = "<group>"; };
+		81857BAD1CD96706004535D9 /* NewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPatientViewController.swift; sourceTree = "<group>"; };
+		CE1FA8FE1CDC2B99005E03FE /* DiagnosisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		CEDE58A61CDC0FF600D0CE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73BA1E91C6A7BE90006BDFD /* NewVisitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewVisitViewController.swift; path = ../NewVisitViewController.swift; sourceTree = "<group>"; };
+		EA02EE9B1BF04376008FFFB8 /* emr-prototype-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emr-prototype-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02EE9E1BF04376008FFFB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA02EEA51BF04376008FFFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA02EEA81BF04376008FFFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA02EEAA1BF04376008FFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02EEAF1BF04376008FFFB8 /* emr-prototype-v1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emr-prototype-v1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02EEB31BF04376008FFFB8 /* emr_prototype_v1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emr_prototype_v1Tests.swift; sourceTree = "<group>"; };
+		EA02EEB51BF04376008FFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02EEBA1BF04376008FFFB8 /* emr-prototype-v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emr-prototype-v1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02EEBE1BF04376008FFFB8 /* emr_prototype_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emr_prototype_v1UITests.swift; sourceTree = "<group>"; };
+		EA02EEC01BF04376008FFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD551F11BF0470100E214D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EAD551F31BF0470C00E214D3 /* MainDashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDashViewController.swift; sourceTree = "<group>"; };
+		EAD551F51BF0471600E214D3 /* PatientDashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDashViewController.swift; sourceTree = "<group>"; };
+		EAD551F71BF0472200E214D3 /* PharmacyDashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacyDashViewController.swift; sourceTree = "<group>"; };
+		EAD551F91BF0475400E214D3 /* PatientDirectoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDirectoryTableViewController.swift; sourceTree = "<group>"; };
+		EAD551FB1BF0476B00E214D3 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		EAD5520F1BF0482600E214D3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EAD552111BF0483E00E214D3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAD552131BF0484600E214D3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EAD552151BF0484D00E214D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAD552171BF0485500E214D3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EAD552191BF0485E00E214D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAD5521B1BF0486600E214D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EAD5521D1BF0486E00E214D3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EAD5521F1BF0487C00E214D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAD552211BF0488800E214D3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EAD552231BF04B5800E214D3 /* PatientDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailViewController.swift; sourceTree = "<group>"; };
+		EAD552251BF04DE400E214D3 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		EAD552271BF0506700E214D3 /* WaitingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingListViewController.swift; sourceTree = "<group>"; };
+		EAD5522F1BF0620300E214D3 /* FilledPrescriptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilledPrescriptionTableViewController.swift; sourceTree = "<group>"; };
+		EAD552311BF0621500E214D3 /* UnfilledPrescriptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfilledPrescriptionTableViewController.swift; sourceTree = "<group>"; };
+		EAD552331BF064F000E214D3 /* PrescriptionSlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionSlipViewController.swift; sourceTree = "<group>"; };
+		EAE00A951BF3CF3D00A8B2DF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EAE00A961BF3CF3D00A8B2DF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EAE00A971BF3CF3D00A8B2DF /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		EAE00A981BF3CF3D00A8B2DF /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		EAE00A991BF3CF3D00A8B2DF /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		EAE00A9A1BF3CF3D00A8B2DF /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		EAE00A9B1BF3CF3D00A8B2DF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		EAE00AA31BF3E5EB00A8B2DF /* CheckInTriageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInTriageTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA02EE981BF04376008FFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE00A9F1BF3CF3D00A8B2DF /* ParseFacebookUtils.framework in Frameworks */,
+				EAD552221BF0488800E214D3 /* MobileCoreServices.framework in Frameworks */,
+				EAD552201BF0487C00E214D3 /* SystemConfiguration.framework in Frameworks */,
+				EAD5521E1BF0486E00E214D3 /* StoreKit.framework in Frameworks */,
+				EAD5521C1BF0486600E214D3 /* Security.framework in Frameworks */,
+				EAD5521A1BF0485E00E214D3 /* QuartzCore.framework in Frameworks */,
+				EAE00AA11BF3CF3D00A8B2DF /* ParseTwitterUtils.framework in Frameworks */,
+				EAD552181BF0485500E214D3 /* CoreLocation.framework in Frameworks */,
+				EAD552161BF0484D00E214D3 /* CoreGraphics.framework in Frameworks */,
+				EAE00AA21BF3CF3D00A8B2DF /* ParseUI.framework in Frameworks */,
+				EAD552141BF0484600E214D3 /* CFNetwork.framework in Frameworks */,
+				EAE00A9C1BF3CF3D00A8B2DF /* Bolts.framework in Frameworks */,
+				EAD552121BF0483E00E214D3 /* AudioToolbox.framework in Frameworks */,
+				EAE00A9D1BF3CF3D00A8B2DF /* Parse.framework in Frameworks */,
+				EAD552101BF0482600E214D3 /* libsqlite3.tbd in Frameworks */,
+				EAE00A9E1BF3CF3D00A8B2DF /* ParseCrashReporting.framework in Frameworks */,
+				EAE00AA01BF3CF3D00A8B2DF /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEAC1BF04376008FFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEB71BF04376008FFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA02EE921BF04376008FFFB8 = {
+			isa = PBXGroup;
+			children = (
+				EA02EE9D1BF04376008FFFB8 /* emr-prototype-v1 */,
+				EA02EEB21BF04376008FFFB8 /* emr-prototype-v1Tests */,
+				EA02EEBD1BF04376008FFFB8 /* emr-prototype-v1UITests */,
+				EA02EE9C1BF04376008FFFB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA02EE9C1BF04376008FFFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA02EE9B1BF04376008FFFB8 /* emr-prototype-v1.app */,
+				EA02EEAF1BF04376008FFFB8 /* emr-prototype-v1Tests.xctest */,
+				EA02EEBA1BF04376008FFFB8 /* emr-prototype-v1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA02EE9D1BF04376008FFFB8 /* emr-prototype-v1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE58A51CDC0FF500D0CE8B /* Main.storyboard */,
+				EAD552001BF047CE00E214D3 /* Libraries */,
+				EA02EE9E1BF04376008FFFB8 /* AppDelegate.swift */,
+				EAD551F11BF0470100E214D3 /* LoginViewController.swift */,
+				EAD551F31BF0470C00E214D3 /* MainDashViewController.swift */,
+				EAD551FD1BF0479300E214D3 /* Patients */,
+				EAD551FF1BF047B000E214D3 /* Pharmacy */,
+				EA02EEA51BF04376008FFFB8 /* Assets.xcassets */,
+				EA02EEA71BF04376008FFFB8 /* LaunchScreen.storyboard */,
+				EA02EEAA1BF04376008FFFB8 /* Info.plist */,
+			);
+			path = "emr-prototype-v1";
+			sourceTree = "<group>";
+		};
+		EA02EEB21BF04376008FFFB8 /* emr-prototype-v1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA02EEB31BF04376008FFFB8 /* emr_prototype_v1Tests.swift */,
+				EA02EEB51BF04376008FFFB8 /* Info.plist */,
+			);
+			path = "emr-prototype-v1Tests";
+			sourceTree = "<group>";
+		};
+		EA02EEBD1BF04376008FFFB8 /* emr-prototype-v1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA02EEBE1BF04376008FFFB8 /* emr_prototype_v1UITests.swift */,
+				EA02EEC01BF04376008FFFB8 /* Info.plist */,
+			);
+			path = "emr-prototype-v1UITests";
+			sourceTree = "<group>";
+		};
+		EAD551FD1BF0479300E214D3 /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				EAD551F51BF0471600E214D3 /* PatientDashViewController.swift */,
+				EAD551F91BF0475400E214D3 /* PatientDirectoryTableViewController.swift */,
+				81857BAD1CD96706004535D9 /* NewPatientViewController.swift */,
+				EAE00AA31BF3E5EB00A8B2DF /* CheckInTriageTableViewController.swift */,
+				EAD552231BF04B5800E214D3 /* PatientDetailViewController.swift */,
+				D73BA1E91C6A7BE90006BDFD /* NewVisitViewController.swift */,
+				EAD552271BF0506700E214D3 /* WaitingListViewController.swift */,
+				CE1FA8FE1CDC2B99005E03FE /* DiagnosisViewController.swift */,
+			);
+			name = Patients;
+			sourceTree = "<group>";
+		};
+		EAD551FF1BF047B000E214D3 /* Pharmacy */ = {
+			isa = PBXGroup;
+			children = (
+				EAD551F71BF0472200E214D3 /* PharmacyDashViewController.swift */,
+				EAD551FB1BF0476B00E214D3 /* InventoryTableViewController.swift */,
+				2697408D1CC95D5700044A6B /* MedicationDetailSpanishViewController.swift */,
+				2697408E1CC95D5700044A6B /* MedicationSpanishViewController.swift */,
+				EAD552251BF04DE400E214D3 /* MedicationDetailViewController.swift */,
+				EAD552311BF0621500E214D3 /* UnfilledPrescriptionTableViewController.swift */,
+				EAD5522F1BF0620300E214D3 /* FilledPrescriptionTableViewController.swift */,
+				EAD552331BF064F000E214D3 /* PrescriptionSlipViewController.swift */,
+			);
+			name = Pharmacy;
+			sourceTree = "<group>";
+		};
+		EAD552001BF047CE00E214D3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5520F1BF0482600E214D3 /* libsqlite3.tbd */,
+				EAE00A951BF3CF3D00A8B2DF /* Bolts.framework */,
+				EAE00A961BF3CF3D00A8B2DF /* Parse.framework */,
+				EAE00A971BF3CF3D00A8B2DF /* ParseCrashReporting.framework */,
+				EAE00A981BF3CF3D00A8B2DF /* ParseFacebookUtils.framework */,
+				EAE00A991BF3CF3D00A8B2DF /* ParseFacebookUtilsV4.framework */,
+				EAE00A9A1BF3CF3D00A8B2DF /* ParseTwitterUtils.framework */,
+				EAE00A9B1BF3CF3D00A8B2DF /* ParseUI.framework */,
+				EAD552211BF0488800E214D3 /* MobileCoreServices.framework */,
+				EAD5521F1BF0487C00E214D3 /* SystemConfiguration.framework */,
+				EAD5521D1BF0486E00E214D3 /* StoreKit.framework */,
+				EAD5521B1BF0486600E214D3 /* Security.framework */,
+				EAD552191BF0485E00E214D3 /* QuartzCore.framework */,
+				EAD552171BF0485500E214D3 /* CoreLocation.framework */,
+				EAD552151BF0484D00E214D3 /* CoreGraphics.framework */,
+				EAD552131BF0484600E214D3 /* CFNetwork.framework */,
+				EAD552111BF0483E00E214D3 /* AudioToolbox.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA02EE9A1BF04376008FFFB8 /* emr-prototype-v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02EEC31BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1" */;
+			buildPhases = (
+				EA02EE971BF04376008FFFB8 /* Sources */,
+				EA02EE981BF04376008FFFB8 /* Frameworks */,
+				EA02EE991BF04376008FFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "emr-prototype-v1";
+			productName = "emr-prototype-v1";
+			productReference = EA02EE9B1BF04376008FFFB8 /* emr-prototype-v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA02EEAE1BF04376008FFFB8 /* emr-prototype-v1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02EEC61BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1Tests" */;
+			buildPhases = (
+				EA02EEAB1BF04376008FFFB8 /* Sources */,
+				EA02EEAC1BF04376008FFFB8 /* Frameworks */,
+				EA02EEAD1BF04376008FFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA02EEB11BF04376008FFFB8 /* PBXTargetDependency */,
+			);
+			name = "emr-prototype-v1Tests";
+			productName = "emr-prototype-v1Tests";
+			productReference = EA02EEAF1BF04376008FFFB8 /* emr-prototype-v1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA02EEB91BF04376008FFFB8 /* emr-prototype-v1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02EEC91BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1UITests" */;
+			buildPhases = (
+				EA02EEB61BF04376008FFFB8 /* Sources */,
+				EA02EEB71BF04376008FFFB8 /* Frameworks */,
+				EA02EEB81BF04376008FFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA02EEBC1BF04376008FFFB8 /* PBXTargetDependency */,
+			);
+			name = "emr-prototype-v1UITests";
+			productName = "emr-prototype-v1UITests";
+			productReference = EA02EEBA1BF04376008FFFB8 /* emr-prototype-v1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA02EE931BF04376008FFFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Gayle Ocampo";
+				TargetAttributes = {
+					EA02EE9A1BF04376008FFFB8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6S34T7XC6R;
+					};
+					EA02EEAE1BF04376008FFFB8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y3EMNF583W;
+						TestTargetID = EA02EE9A1BF04376008FFFB8;
+					};
+					EA02EEB91BF04376008FFFB8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y3EMNF583W;
+						TestTargetID = EA02EE9A1BF04376008FFFB8;
+					};
+				};
+			};
+			buildConfigurationList = EA02EE961BF04376008FFFB8 /* Build configuration list for PBXProject "emr-prototype-v1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA02EE921BF04376008FFFB8;
+			productRefGroup = EA02EE9C1BF04376008FFFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA02EE9A1BF04376008FFFB8 /* emr-prototype-v1 */,
+				EA02EEAE1BF04376008FFFB8 /* emr-prototype-v1Tests */,
+				EA02EEB91BF04376008FFFB8 /* emr-prototype-v1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA02EE991BF04376008FFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE58A71CDC0FF600D0CE8B /* Main.storyboard in Resources */,
+				EA02EEA91BF04376008FFFB8 /* LaunchScreen.storyboard in Resources */,
+				EA02EEA61BF04376008FFFB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEAD1BF04376008FFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEB81BF04376008FFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA02EE971BF04376008FFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD551F41BF0470C00E214D3 /* MainDashViewController.swift in Sources */,
+				EAD552241BF04B5800E214D3 /* PatientDetailViewController.swift in Sources */,
+				EAD552281BF0506700E214D3 /* WaitingListViewController.swift in Sources */,
+				269740901CC95D5700044A6B /* MedicationSpanishViewController.swift in Sources */,
+				EAD551FA1BF0475400E214D3 /* PatientDirectoryTableViewController.swift in Sources */,
+				EAD552301BF0620300E214D3 /* FilledPrescriptionTableViewController.swift in Sources */,
+				EAD551F21BF0470100E214D3 /* LoginViewController.swift in Sources */,
+				EAD551F81BF0472200E214D3 /* PharmacyDashViewController.swift in Sources */,
+				CE1FA8FF1CDC2B99005E03FE /* DiagnosisViewController.swift in Sources */,
+				EAE00AA41BF3E5EB00A8B2DF /* CheckInTriageTableViewController.swift in Sources */,
+				81857BAE1CD96706004535D9 /* NewPatientViewController.swift in Sources */,
+				EAD551F61BF0471600E214D3 /* PatientDashViewController.swift in Sources */,
+				2697408F1CC95D5700044A6B /* MedicationDetailSpanishViewController.swift in Sources */,
+				EAD552321BF0621500E214D3 /* UnfilledPrescriptionTableViewController.swift in Sources */,
+				EAD552261BF04DE400E214D3 /* MedicationDetailViewController.swift in Sources */,
+				EAD551FC1BF0476B00E214D3 /* InventoryTableViewController.swift in Sources */,
+				EA02EE9F1BF04376008FFFB8 /* AppDelegate.swift in Sources */,
+				EAD552341BF064F000E214D3 /* PrescriptionSlipViewController.swift in Sources */,
+				D73BA1EA1C6A7BE90006BDFD /* NewVisitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEAB1BF04376008FFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02EEB41BF04376008FFFB8 /* emr_prototype_v1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02EEB61BF04376008FFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02EEBF1BF04376008FFFB8 /* emr_prototype_v1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA02EEB11BF04376008FFFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA02EE9A1BF04376008FFFB8 /* emr-prototype-v1 */;
+			targetProxy = EA02EEB01BF04376008FFFB8 /* PBXContainerItemProxy */;
+		};
+		EA02EEBC1BF04376008FFFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA02EE9A1BF04376008FFFB8 /* emr-prototype-v1 */;
+			targetProxy = EA02EEBB1BF04376008FFFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDE58A51CDC0FF500D0CE8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE58A61CDC0FF600D0CE8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA02EEA71BF04376008FFFB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02EEA81BF04376008FFFB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA02EEC11BF04376008FFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA02EEC21BF04376008FFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA02EEC41BF04376008FFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6S34T7XC6R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/emr-prototype-v1",
+				);
+				INFOPLIST_FILE = "emr-prototype-v1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EPICS-EMR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		EA02EEC51BF04376008FFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6S34T7XC6R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/emr-prototype-v1",
+				);
+				INFOPLIST_FILE = "emr-prototype-v1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EPICS-EMR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		EA02EEC71BF04376008FFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "emr-prototype-v1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Butler.emr-prototype-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emr-prototype-v1.app/emr-prototype-v1";
+			};
+			name = Debug;
+		};
+		EA02EEC81BF04376008FFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "emr-prototype-v1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Butler.emr-prototype-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emr-prototype-v1.app/emr-prototype-v1";
+			};
+			name = Release;
+		};
+		EA02EECA1BF04376008FFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "emr-prototype-v1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Butler.emr-prototype-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "emr-prototype-v1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA02EECB1BF04376008FFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "emr-prototype-v1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Butler.emr-prototype-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "emr-prototype-v1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA02EE961BF04376008FFFB8 /* Build configuration list for PBXProject "emr-prototype-v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02EEC11BF04376008FFFB8 /* Debug */,
+				EA02EEC21BF04376008FFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02EEC31BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02EEC41BF04376008FFFB8 /* Debug */,
+				EA02EEC51BF04376008FFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02EEC61BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02EEC71BF04376008FFFB8 /* Debug */,
+				EA02EEC81BF04376008FFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02EEC91BF04376008FFFB8 /* Build configuration list for PBXNativeTarget "emr-prototype-v1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02EECA1BF04376008FFFB8 /* Debug */,
+				EA02EECB1BF04376008FFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA02EE931BF04376008FFFB8 /* Project object */;
+}
