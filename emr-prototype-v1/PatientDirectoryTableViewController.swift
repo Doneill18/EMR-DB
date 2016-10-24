@@ -61,10 +61,14 @@ class PatientDirectoryTableViewController: PFQueryTableViewController {
         //Extract values from the PFObject to display in the table view
         let firstName = object!["firstName"] as? String
         let lastName = object!["lastName"] as? String
-        if let patient = (lastName! + ", " + firstName!) as? String
+        
+        /*if let patient = (lastName! + ", " + firstName!) as? String
         {
             cell?.textLabel?.text = patient
         }
+        */
+
+            cell?.textLabel?.text = (lastName! + ", " + firstName!)
         
         return cell
     }

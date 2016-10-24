@@ -181,7 +181,7 @@ class DiagnosisViewController: UIViewController{
         patientPurposeOfVisit.text = {() -> String in
             let POV = currentVisit["purposeOfVisit"] as? [Bool]
             var POVString = ""
-            for(var i in 0 ..< POV!.count){
+            for  i in 0 ..< POV!.count{
                 if(POV![i]){
                     if(POVString.isEmpty){
                         POVString += self.purposeOfVisit[i]
@@ -202,7 +202,7 @@ class DiagnosisViewController: UIViewController{
         let currentVisit = currentObject!
         currentVisit["diagnosis"] = {() -> [Bool] in
             var vals:[Bool] = []
-            for(var i=0; i<self.switchArray.count; i++){
+            for  i in 0 ..< self.switchArray.count {
                 vals.append(self.switchArray[i].on)
             }
             return vals

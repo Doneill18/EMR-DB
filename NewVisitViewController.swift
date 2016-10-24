@@ -161,7 +161,7 @@ class NewVisitViewController: UIViewController {
         newVisit["notes"] = patientNotes.text
         newVisit["purposeOfVisit"] = {() -> [Bool] in
             var vals:[Bool] = []
-            for(var i in 0 ..< self.switchArray.count){
+            for i in 0 ..< self.switchArray.count{
                 vals.append(self.switchArray[i].on)
             }
             return vals
